@@ -44,6 +44,18 @@
           {
             "name": "Road to Ikana Rock Grotto Chest",
             "access_rules": ["goron"]
+          },
+          {
+            "name": "Road to Ikana Grotto Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png",
+            "access_rules": ["goron"]
+          },
+          {
+            "name": "Road to Ikana Grotto Boulder",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": ["goron"]
           }
         ],
         "map_locations": [
@@ -64,6 +76,11 @@
               "easy_logic, $can_play_eponas, $baby_has_bottle, $can_use_lens",
               "normal_logic, $can_play_eponas, redpotion, $can_use_lens"
             ]
+          },
+          {
+            "name": "Road to Ikana Scarecrow Pot",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -86,10 +103,27 @@
             ]
           },
           {
+            "name": "Bombable Grotto Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png",
+            "access_rules": [
+              "easy_logic, $baby_has_explosives",
+              "normal_logic, $has_explosives"
+            ]
+          },
+          {
             "name": "Day 1 Bats Chest",
             "access_rules": [
               "easy_logic, captainhat, $baby_can_smack_hard, magic",
               "normal_logic, captainhat, $can_smack"
+            ]
+          },
+          {
+            "name": "Day 1 Grave Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": [
+              "easy_logic, captainhat"
             ]
           },
           {
@@ -109,10 +143,34 @@
             ]
           },
           {
+            "name": "Day 2 Freestanding Grave Rupees",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": [
+              "easy_logic, captainhat"
+            ]
+          },
+          {
+            "name": "Day 2 Grave Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": [
+              "easy_logic, captainhat"
+            ]
+          },
+          {
             "name": "Day 2 Iron Knuckle Chest",
             "access_rules": [
               "easy_logic, captainhat, $baby_can_smack_hard, $baby_has_explosives, $can_use_lens",
               "normal_logic, captainhat, $can_smack_hard, $has_explosives, $can_use_lens"
+            ]
+          },
+          {
+            "name": "Day 3 Grave Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": [
+              "easy_logic, captainhat"
             ]
           },
           {
@@ -130,6 +188,26 @@
               "easy_logic, $can_play_sonata, $baby_can_smack_hard, bow",
               "normal_logic, $can_play_sonata, $can_smack_hard"
             ]
+          },
+          {
+            "name": "Graveyard Wonder Items 1",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Graveyard Wonder Items 2",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Graveyard Wonder Items 3",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Graveyard Wonder Items 4",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -148,7 +226,13 @@
         ],
         "sections": [
           {
-            "name": "Grotto Chest",
+            "name": "Secret Shrine Grotto Chest",
+            "access_rules": [""]
+          },
+          {
+            "name": "Secret Shrine Grotto Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png",
             "access_rules": [""]
           }
         ],
@@ -188,6 +272,11 @@
             "name": "Zora Trade Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png",
             "access_rules": ["deku, zora, oceandeed"]
+          },
+          {
+            "name": "Sakon's Hideout Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -205,37 +294,21 @@
           "normal_logic, $ikana_canyon"
         ],
         "sections": [
-          //{
-          //  "name": "Grotto Chest",
-          //  "access_rules": [""]
-          //},
-          //{
-          //  "name": "Zora Scrub Trade",
-          //  "chest_unopened_img": "images/characters/scrub_merchant.png",
-          //  "access_rules": [
-          //    "easy_logic, $can_use_ice_arrows, hookshot, gibdo, garo, zora, oceandeed",
-          //    "normal_logic, zora, oceandeed"
-          //  ]
-          //},
-          //{
-          //  "name": "Deku Scrub Purchase Blue Potion",
-          //  "chest_unopened_img": "images/characters/scrub_merchant.png",
-          //  "visibility_rules": ["scrubsanity"],
-          //  "access_rules": [
-          //    "easy_logic, zora, $baby_has_bottle, adultswallet",
-          //    "normal_logic, zora, $has|bottles|1, adultswallet"
-          //  ]
-          //},
-          //{
-          //  "name": "Zora Trade Freestanding HP",
-          //  "chest_unopened_img": "images/equipment/heart_piece.png",
-          //  "access_rules": ["deku, zora, oceandeed"]
-          //},
           {
             "ref": "Clock Town/Tingle Clock Town/Clock Town Map Purchase"
           },
           {
             "ref": "Ikana/Tingle/Stone Tower Map Purchase"
+          },
+          {
+            "name": "Ikana Canyon Owl Statue",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Ikana Canyon Owl Statue Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png"
           },
           {
             "name": "Music Box Mummy",
@@ -266,6 +339,52 @@
             "map": "overworld",
             "x": 847,
             "y": 251
+          }
+        ]
+      },
+      {
+        "name": "Stone Tower",
+        "access_rules": [
+          "easy_logic, $baby_stone_tower",
+          "normal_logic, $stone_tower"
+        ],
+        "sections":[
+          {
+            "name": "Left Side Scarecrow Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": [
+              "easy_logic, $baby_can_play_scarecrow",
+              "normal_logic, $can_play_scarecrow"
+            ]
+          },
+          {
+            "name": "Right Side Scarecrow Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": [
+              "easy_logic, $baby_can_play_scarecrow",
+              "normal_logic, $can_play_scarecrow"
+            ]
+          },
+          {
+            "name": "Stone Tower Owl Statue",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Stone Tower Owl Statue Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          }
+          ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 956,
+            "y": 216,
+            "shape": "diamond",
+            "size": 7
           }
         ]
       },
