@@ -21,8 +21,26 @@
             "access_rules": ["$can_play_healing"]
           },
           {
+            "name": "Great Bay Coast Owl Statue",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png"
+          },
+          {
             "name": "Behind Fisherman's Hut Grotto Chest",
             "access_rules": [""]
+          },
+          {
+            "name": "Great Bay Coast Grotto Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png",
+            "sections": [
+              { "name": "Great Bay Coast Grotto Grass" }
+            ]
+          },
+          {
+            "name": "Coast Butterflies",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           },
           {
             "ref": "Romani Ranch/Tingle Milk Road/Great Bay Map Purchase"
@@ -47,6 +65,11 @@
             ]
           },
           {
+            "name": "Marine Lab Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
             "name": "Ledge Grotto Left Cow",
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
@@ -57,6 +80,29 @@
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": ["hookshot, $can_play_eponas"]
+          },
+          {
+            "name": "Ledge Grotto Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png",
+            "access_rules": ["hookshot"]
+          },
+          {
+            "name": "Ledge Grotto Butterflies",
+            "chest_unopened_img": "images/items/nut.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": ["hookshot"]
+          },
+          {
+            "name": "Ledge Grotto Hive",
+            "chest_unopened_img": "images/items/nut.png",
+            "chest_opened_img": "images/icons/check.png",
+            "access_rules": ["hookshot"]
+          },
+          {
+            "name": "Cliff Ledge Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           },
           {
             "name": "Scarecrow Ledge HP",
@@ -73,6 +119,30 @@
               "easy_logic, $baby_clear_greatbay",
               "normal_logic, $clear_greatbay"
             ]
+          }
+        ]
+        },
+      {
+        "name": "Great Bay Coast Pots",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 245,
+            "y": 290,
+            "shape": "diamond",
+            "size": 7
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fisherman Boat Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Pirates Fortress Ledge Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ]
       },
@@ -95,11 +165,16 @@
             ]
           },
           {
+            "name": "Like-Like Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
             "name": "Underwater Chest",
             "access_rules": ["zora"]
           },
           {
-            "name": "Pot Game Silver Rupee",
+            "name": "Zora Pot Game Pots",
             "chest_unopened_img": "images/characters/zora.png",
             "access_rules": ["zora"]
           },
@@ -118,6 +193,11 @@
               "normal_logic, goron",
               "normal_logic, $has_explosives"
             ]
+          },
+          {
+            "name": "Cape Grotto Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png"
           },
           {
             "name": "Great Bay Great Fairy Reward",
@@ -148,6 +228,16 @@
           }
         ],
         "sections": [
+          {
+            "name": "Zora Hall Owl Statue",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png"
+          },
+          {
+            "name": "Zora Hall Owl Statue Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
           {
             "name": "Shop 1",
             "chest_unopened_img": "images/characters/zora_shop.png",
@@ -197,16 +287,6 @@
             "name": "Torches Reward",
             "chest_unopened_img": "images/icons/torch.png",
             "access_rules": ["$can_use_fire_arrows"]
-          },
-          {
-            "name": "Good Picture of Lulu",
-            "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["zora, pictobox"]
-          },
-          {
-            "name": "Bad Picture of Lulu",
-            "chest_unopened_img": "images/characters/zora.png",
-            "access_rules": ["zora, pictobox"]
           }
         ]
       },
@@ -241,6 +321,11 @@
               "easy_logic, $baby_can_reach_seahorse, magic, $baby_has_bottle, zora",
               "normal_logic, $can_reach_seahorse, $has|bottles|1, zora"
             ]
+          },
+          {
+            "name": "Pinnacle Rock Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ]
       }

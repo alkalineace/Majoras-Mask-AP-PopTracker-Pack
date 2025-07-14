@@ -20,7 +20,17 @@
           },
           {
             "name": "Termina Tall Grass Grotto Chest"
+          },
+          {
+           "name": "Termina Field Grass Grotto Grass",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Field Grass Grotto Grass" 
           }
+            ] 
+         }
         ],
         "map_locations": [
           {
@@ -35,7 +45,50 @@
         "sections": [
           {
             "name": "Termina Ikana Pillar Grotto Chest"
+          },
+          {
+           "name": "Termina Field Pillar Freestanding Rupee",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { "name": "Termina Field Pillar Freestanding Rupee" }
+        ]
+       },
+          {
+           "name": "Termina Field Pillar Pot",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { "name": "Termina Field Pillar Pot" }
+        ]
+      }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 595,
+            "y": 302,
+            "shape": "diamond",
+            "size": 7
           }
+        ]
+        },
+      {
+        "name": "Termina Ikana Pillar Grotto Chest",
+        "sections": [
+          {
+            "name": "Termina Ikana Pillar Grotto Chest"
+          },
+          {
+           "name": "Termina Field Pillar Grotto Grass",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Field Pillar Grotto Grass" 
+          }
+            ] 
+         }
         ],
         "map_locations": [
           {
@@ -51,6 +104,16 @@
           {
             "name": "Termina Underwater Chest",
             "access_rules": ["zora"]
+          },
+          {
+           "name": "Termina West Ramp Wonder Item",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina West Ramp Wonder Item" 
+          }
+            ] 
           }
         ],
         "map_locations": [
@@ -67,6 +130,46 @@
           {
             "name": "Defeat Peahat (Daytime Only)",
             "access_rules": ["$baby_can_smack_hard", "normal_logic"]
+          },
+          {
+           "name": "Termina Field Peahat Grotto Grass",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Field Peahat Grotto Grass" 
+          }
+            ] 
+         },
+          {
+           "name": "Termina Field Peahat Grotto Butterflies",
+        "chest_unopened_img": "images/items/nut.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Field Peahat Grotto Butterflies" 
+          }
+            ] 
+           },
+          {
+           "name": "Termina Field Peahat Overworld Grass Wonder Item 1",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Field Peahat Overworld Grass Wonder Item 1" 
+          }
+            ] 
+            },
+          {
+           "name": "Termina Field Peahat Overworld Grass Wonder Item 2",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Field Peahat Overworld Grass Wonder Item 2" 
+          }
+            ] 
           }
         ],
         "map_locations": [
@@ -121,6 +224,36 @@
               "normal_logic, $has_explosives, zora",
               "normal_logic, goron, zora"
             ]
+           },
+           {
+           "name": "Termina Field Bio Baba Grass",
+           "chest_unopened_img": "images/icons/carrot.png",
+           "chest_opened_img": "images/icons/carrot_grey.png",
+           "sections": [
+           { 
+            "name": "Termina Field Bio Baba Grass" 
+           }
+            ] 
+          },
+          {
+           "name": "Termina Field Bio Baba Butterflies",
+           "chest_unopened_img": "images/items/nut.png",
+           "chest_opened_img": "images/icons/check.png",
+           "sections": [
+          { 
+            "name": "Termina Field Bio Baba Butterflies" 
+          }
+            ]
+          },
+          {
+           "name": "Termina Field Bio Baba Hives",
+           "chest_unopened_img": "images/items/nut.png",
+           "chest_opened_img": "images/icons/check.png",
+           "sections": [
+          { 
+            "name": "Termina Field Bio Baba Hives" 
+          }
+            ]
           }
         ],
         "map_locations":[
@@ -161,7 +294,27 @@
               "easy_logic, $baby_has_projectiles, wallet",
               "normal_logic, $has_projectiles, wallet"
             ]
+          },
+           {
+           "name": "Termina Business Scrub Pot",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Business Scrub Pot" 
           }
+            ] 
+         },
+          {
+           "name": "Termina Business Scrub Crate",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Business Scrub Crate" 
+          }
+            ] 
+         }
         ],
         "map_locations": [
           {
@@ -185,7 +338,47 @@
               "normal_logic, zora, $can_play_bossa_nova, $has_explosives",
               "normal_logic, zora, $can_play_bossa_nova, goron"
             ]
+          },
+          {
+           "name": "Termina Field Gossip North Grotto Grass",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Field Gossip North Grotto Grass" 
           }
+            ]
+         },
+          {
+           "name": "Termina Field Gossip East Grotto Grass",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Field Gossip East Grotto Grass" 
+          }
+            ] 
+          },
+          {
+           "name": "Termina Field Gossip East Grotto Butterflies",
+        "chest_unopened_img": "images/items/nut.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Field Gossip East Grotto Butterflies" 
+          }
+            ] 
+          },
+          {
+           "name": "Termina Field Gossip West Grotto Hive",
+        "chest_unopened_img": "images/items/nut.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Field Gossip West Grotto Hive" 
+          }
+            ] 
+         }
         ],
         "map_locations": [
           {
@@ -232,9 +425,427 @@
             "chest_unopened_img": "images/icons/cow.png",
             "visibility_rules": ["cowsanity"],
             "access_rules": ["$can_play_eponas"]
+          },
+          {
+           "name": "Termina Field Cow Grotto Grass",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Field Cow Grotto Grass" 
+          }
+            ] 
+          },
+          {
+           "name": "Termina Field Cow Grotto Butterflies",
+        "chest_unopened_img": "images/items/nut.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Field Cow Grotto Butterflies" 
+          }
+            ] 
+          },
+      {
+        "name": "Termina Field Cow Grotto Hive",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Field Cow Grotto Hive"
           }
         ]
+      },
+          {
+           "name": "Termina Log Bombable Roof Wonder Item",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { 
+            "name": "Termina Log Bombable Roof Wonder Item"
+          }
+        ]  
       }
+    ]
+  },
+  {
+           "name": "Termina Field Grass Patch 1",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { 
+            "name": "Termina Field Grass 1" 
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 565,
+            "y": 335,
+            "shape":"diamond",
+            "size": 7
+          }
+        ]
+      }, 
+      {
+        "name": "Termina Field Grass Patch 2",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 2" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 575,
+            "y": 350,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 3",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 3" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 580,
+            "y": 340,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 4",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 4" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 590,
+            "y": 320,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 5",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 5" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 610,
+            "y": 315,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 6",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 6" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 570,
+            "y": 300,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 7",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 7" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 560,
+            "y": 285,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 8",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 8" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 570,
+            "y": 325,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 9",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 9" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 550,
+            "y": 280,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 10",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 10" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 525,
+            "y": 280,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 11",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 11" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 510,
+            "y": 285,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 12",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 12" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 490,
+            "y": 320,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 13",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 13" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 495,
+            "y": 330,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 14",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 14" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 495,
+            "y": 345,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 15",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 15" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 505,
+            "y": 345,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+      {
+        "name": "Termina Field Grass Patch 16",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 16" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 520,
+            "y": 345,
+            "shape": "diamond"
+          }
+        ]
+      }, 
+      {
+        "name": "Termina Field Grass Patch 17",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 17" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 540,
+            "y": 335,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+        }, 
+      {
+        "name": "Termina Field Grass Patch 18",
+        "chest_unopened_img": "images/icons/carrot.png",
+        "chest_opened_img": "images/icons/carrot_grey.png",
+        "sections": [
+          { "name": "Termina Field Grass 18" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 505,
+            "y": 327,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      }, 
+      {
+        "name": "Termina Field Tree Drawing Wonder Items",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { "name": "Termina Field Tree Drawing Wonder Items" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 540,
+            "y": 360,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+      },
+       {
+        "name": "Termina Field North Ramp Wonder Item",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { "name": "Termina Field North Ramp Wonder Item" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 540,
+            "y": 260,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+          },
+       {
+        "name": "West Clock Town Wall Wonder Item",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { "name": "West Clock Town Wall Wonder Item" },
+          { "name": "West Clock Town Wall Shell Wonder Item" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 505,
+            "y": 305,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+        },
+       {
+        "name": "West Clock Town Ramp Wonder Items",
+        "chest_unopened_img": "images/equipment/unknown.png",
+        "chest_opened_img": "images/icons/check.png",
+        "sections": [
+          { "name": "West Clock Town Ramp Wonder Item" },
+          { "name": "West Clock Town Fountain Wonder Item 1" },
+          { "name": "West Clock Town Fountain Wonder Item 2" }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 490,
+            "y": 310,
+            "shape": "diamond",
+            "size": 7
+          }
+        ]
+        }
     ]
   }
 ]
