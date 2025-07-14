@@ -623,6 +623,11 @@
             ]
           },
           {
+            "name": "Pirates Fortress Sewers Cage Room Barrels",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
             "name": "Pirates' Fortress Sewers Push Block Maze Chest",
             "access_rules": ["goron"]
           },
@@ -635,6 +640,21 @@
             "access_rules": ["goron"]
           },
           {
+            "name": "Pirates Fortress Sewers Post Cage Room Ladder Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+              "name": "Pirates Fortress Sewers Water Switch Room Barrels",
+              "chest_unopened_img": "images/equipment/unknown.png",
+              "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Pirates Fortress Sewers Water Switch Room Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
             "name": "Pirates' Fortress Near Egg Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, hookshot, $baby_can_smack_hard, magic, stonemask",
@@ -642,11 +662,36 @@
             ]
           },
           {
+            "name": "Pirates Fortress Near Egg Barrels",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Pirates Fortress Near Egg Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
             "name": "Pirates' Fortress Pirates Surrounding Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
               "normal_logic, $pirates_fortress_interior, hookshot"
             ]
+          },
+          {
+            "name": "Pirates Fortress Under Left Bridge Freestanding Hearts",
+            "chest_unopened_img": "images/equipment/heart_piece.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Pirates Fortress Left Bridge Barrel",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Pirates Fortress Hub Lower Staircase Wonder Items",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           },
           {
             "name": "Pirates' Fortress Hub Lower Chest",
@@ -663,6 +708,11 @@
             ]
           },
           {
+            "name": "Pirates' Fortress Leader's Room Upper Corridor Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
             "name": "Pirates' Fortress Leader's Room Chest",
             "access_rules": [
               "easy_logic, $baby_pirates_fortress_interior, $baby_has_projectiles, stonemask, hookshot",
@@ -671,6 +721,16 @@
               "normal_logic, $pirates_fortress_interior, goron, bow",
               "normal_logic, $pirates_fortress_interior, goron, deku, magic"
             ]
+          },
+          {
+            "name": "Pirates Fortress Leader's Room Wonder Items",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Pirates' Fortress Leader's Room Barrels",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
