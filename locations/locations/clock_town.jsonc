@@ -10,6 +10,11 @@
           {
             "name": "Freestanding HP",
             "chest_unopened_img": "images/equipment/heart_piece.png"
+          },
+          {
+            "name": "Clock Tower Roof Ledge Wonder Items",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -203,6 +208,11 @@
             "name": "Keaton Quiz",
             "access_rules": ["keaton"],
             "chest_unopened_img": "images/masks/keaton.png"
+          },
+          {
+            "name": "Keaton Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png"
           }
         ],
         "map_locations": [
@@ -297,6 +307,11 @@
               "easy_logic, bow, bombs, $baby_has_bombchus",
               "normal_logic, bow, bombs, bombchu_bag"
             ]
+          },
+          {
+            "name": "Honey and Darling Outside Wonder Items",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -332,20 +347,13 @@
         "name": "Treasure Game (6 AM - 10 PM)",
         "sections": [
           {
-            "name": "East Clock Town Treasure Game Chest (Human)",
-            "access_rules": [""]
-          },
-          {
-            "name": "East Clock Town Treasure Game Chest (Deku)",
-            "access_rules": ["deku"]
-          },
-          {
             "name": "East Clock Town Treasure Game Chest (Goron)",
             "access_rules": ["goron"]
           },
           {
-            "name": "East Clock Town Treasure Game Chest (Zora)",
-            "access_rules": ["zora"]
+            "name": "East Clock Town Crates",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -365,6 +373,16 @@
               "easy_logic, $baby_has_explosives, $baby_has_projectiles",
               "normal_logic, $has_explosives, $has_projectiles"
             ]
+          },
+          {
+            "name": "Bombers Hideout Balloon Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
+          },
+          {
+            "name": "Bombers Hideout Observatory Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -381,6 +399,11 @@
           {
             "name": "Stock Pot Inn Reservation (Day 1: from 1 PM to 4 PM)",
             "chest_unopened_img": "images/characters/anju.png"
+          },
+          {
+            "name": "Stock Pot Inn Mask Wonder Items",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           },
           {
             "name": "Stock Pot Inn Employees Only Room Chest (Final Night)"
@@ -528,6 +551,11 @@
           {
             "name": "West Clock Town Swordsman Expert Course",
             "access_rules": ["sword"]
+          },
+          {
+            "name": "West Clock Town Swordsman Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -566,6 +594,16 @@
           {
             "name": "Laundry Pool Musician (Night 1 - 2)",
             "chest_unopened_img": "images/characters/guru_guru.png"
+          },
+          {
+            "name": "Laundry Pool Grass",
+            "chest_unopened_img": "images/icons/carrot.png",
+            "chest_opened_img": "images/icons/carrot_grey.png"
+          },
+          {
+            "name": "Laundry Pool Crates",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           }
         ],
         "map_locations": [
@@ -644,6 +682,11 @@
               "easy_logic,$baby_has_projectiles",
               "normal_logic,$has_projectiles"
             ]
+          },
+          {
+            "name": "Clock Tower Roof Pots",
+            "chest_unopened_img": "images/equipment/unknown.png",
+            "chest_opened_img": "images/icons/check.png"
           },
           {
             "name": "Clock Tower Happy Mask Salesman #1",
@@ -737,46 +780,6 @@
               "shopsanity_enabled",
               "shopsanity_advanced"
             ]
-          },
-          {
-            "name": "Shop (Night) Item 1",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
-          },
-          {
-            "name": "Shop (Night) Item 2",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
-          },
-          {
-            "name": "Shop (Night) Item 3",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
-          },
-          {
-            "name": "Shop (Night) Item 4",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
-          },
-          {
-            "name": "Shop (Night) Item 5",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
-          },
-          {
-            "name": "Shop (Night) Item 6",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
-          },
-          {
-            "name": "Shop (Night) Item 7",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
-          },
-          {
-            "name": "Shop (Night) Item 8",
-            "chest_unopened_img": "images/icons/trading_post_night.png",
-            "visibility_rules": ["shopsanity_advanced"]
           }
         ]
       },
@@ -856,47 +859,8 @@
               "shopsanity_enabled",
               "shopsanity_advanced"
             ]
-          },
-          {
-            "name": "Blue Rupee Trade (Half Milk, Magic Mushroom)",
-            "chest_unopened_img": "images/items/half_mushroom_bottle.png",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": [
-              "easy_logic, @Southern Swamp/Southern Swamp Witch Shop/Item 1, $baby_can_get_cow_milk",
-              "normal_logic, $has|bottles|1, maskofscents",
-              "normal_logic, $has|bottles|1, $can_get_cow_milk"
-            ]
-          },
-          {
-            "name": "Red Rupee Trade (Fish, Bug, Fairy, Milk, Potions, Water, Zora Egg)",
-            "chest_unopened_img": "images/items/fish.png",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": [
-              "easy_logic, $baby_has_bottle",
-              "normal_logic, $has|bottles|1"
-            ]
-          },
-          {
-            "name": "Purple Rupee Trade (Poe)",
-            "chest_unopened_img": "images/items/poe.png",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": [
-              "easy_logic, $baby_has_bottle, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest",
-              "normal_logic, $has|bottles|1, @Dungeons/Inverted Stone Tower Temple/Death Armos Maze Chest"
-            ]
-          },
-          {
-            "name": "Gold Rupee Trade (Big Poe, Chateau, Gold Dust)",
-            "chest_unopened_img": "images/items/chateau_romani.png",
-            "visibility_rules": ["shopsanity_advanced"],
-            "access_rules": [
-              "easy_logic, $baby_has_bottle, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
-              "normal_logic, $has|bottles|1, @Ikana/Graveyard/Day 3 Dampe Big Poe Chest",
-              "normal_logic, $has|bottles|1, @Dungeons/Beneath the Well/Rightside Torch Chest, bombs",
-              "normal_logic, $has|bottles|1, romani, adultswallet",
-              "normal_logic, $has|bottles|1, @Snowhead/Twin Islands/Goron Racetrack Prize"
-            ]
           }
+          
         ]
       },
       {
@@ -923,22 +887,6 @@
           },
           {
             "ref": "Southern Swamp/Tingle Southern Swamp/Woodfall Map Purchase"
-          }
-        ]
-      },
-      {
-        "name": "West Clock Town Lottery",
-        "chest_unopened_img": "images/icons/lottery.png",
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 55,
-            "y": 129
-          }
-        ],
-        "sections": [
-          {
-            "name": "Win Any Day"
           }
         ]
       }
