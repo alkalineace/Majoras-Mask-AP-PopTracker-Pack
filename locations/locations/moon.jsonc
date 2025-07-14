@@ -109,7 +109,7 @@
             "name": "Trade All Masks",
             "chest_unopened_img": "images/masks/fierce_deity.png",
             "access_rules": ["postmanhat, allnightmask, blastmask, stonemask, fairymask, keatonmask, bremenmask, bunnyhood, dongeromask, maskofscents, romanimask, circusleadermask, kafeimask, couplesmask, maskoftruth, kamaromask, gibdomask, garomask, captainhat, giantmask, deku, goron, zora, @Link Trial/Heart Piece, $can_use_fire_arrows"]
-          }
+          },
           {
             "name": "Moon Butterflies",
             "chest_unopened_img": "images/equipment/unknown.png",
